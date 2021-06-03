@@ -1,6 +1,6 @@
 # python-test-emad
 
-## Step 1: Docker
+## Step 1: Installing Docker application
 Make sure you have Docker installed at your machince 
 
 ## Step 2: Building the Docker Container
