@@ -35,11 +35,9 @@ def main():
     fileName = './file.txt'
     open(fileName, 'w')
     fileSize = os.stat(fileName).st_size
-
     with open(fileName, 'a') as myFile:
         print('started ...')
         while fileSize < 10485760:
-            
             function_list = [
                 random_alphanumerics, random_string, random_integer,
                 random_real_number
@@ -51,5 +49,6 @@ def main():
 
         print('End')
         myFile.close()
+
 
 main()
